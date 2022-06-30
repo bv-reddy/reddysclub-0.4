@@ -1,0 +1,506 @@
+body {
+  background: #4e4e4e;
+  padding: 0;
+  margin: 0;
+}
+.vision-section,
+.NRI-team,
+.team,
+.educational-program-section,
+.NRI-partners-section {
+  padding-top: 4rem;
+}
+.col-sm-4,
+.col-sm-3 {
+  padding: 10px;
+}
+.section-heading {
+  color: #c7a853;
+  padding: 20px 0;
+}
+
+h3 {
+  color: #c7a853;
+  padding: 20px 0;
+}
+H2,
+h4,
+h5,
+span {
+  color: #c7a853;
+}
+p {
+  color: #ffff;
+  font-size: 18px;
+}
+.col-sm-3 .col-sm-4 {
+  padding: 10px;
+}
+/* nav bar section */
+.navbar .navbar-brand {
+  font-size: 30px;
+}
+.navbar .nav-item {
+  padding: 5px 0px;
+}
+.navbar .nav-link {
+  font-size: 20px;
+  margin-left: 10px;
+  color: #c7a853;
+}
+.fa-bars {
+  color: #c7a853;
+  font-size: 30px;
+}
+.bg-dark {
+  background-color: #4e4e4e !important;
+}
+.navbar .navbar-toggler-icon {
+  background-image: none;
+}
+.navbar .navbar-toggler {
+  border-color: #4e4e4e;
+  background-color: #4e4e4e;
+  height: 36px;
+  outline: none;
+  border-radius: 0px;
+  position: absolute;
+  right: 30px;
+  top: 20px;
+}
+.navbar .navbar-toggler-icon:after {
+  content: "\f0c9";
+  color: #c7a853;
+  font-size: 18px;
+  line-height: 26px;
+  font-family: "FontAwesome";
+}
+/* slide */
+.video {
+  margin: 0;
+}
+/* story-section css */
+.story-section {
+  padding-top: 4rem;
+}
+.program-section {
+  padding-top: 4rem;
+}
+.footer-section {
+  padding: 4rem 0;
+}
+
+/*--------------------------------------------------------------
+# Contact Us
+--------------------------------------------------------------*/
+.about .content h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.about .content h3 {
+  font-weight: 500;
+  line-height: 32px;
+  font-size: 24px;
+}
+.about .content ul {
+  list-style: none;
+  padding: 0;
+}
+.about .content ul li {
+  padding: 10px 0 0 28px;
+  position: relative;
+}
+.about .content ul i {
+  left: 0;
+  top: 12px;
+  position: absolute;
+  font-size: 20px;
+  color: #ff0000;
+}
+.about .content p:last-child {
+  margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+  # Contact Us
+  --------------------------------------------------------------*/
+.contactus-icon {
+  /* text-align: center !important; */
+  font-size: 40px;
+  margin-left: 44%;
+}
+.contact .info-wrap {
+  background: rgba(255, 255, 255, 0.06);
+  padding: 30px;
+}
+.contact .info i {
+  font-size: 20px;
+  color: #fff;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+.contact .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.contact .info p {
+  padding: 0 0 10px 60px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+.contact .info .email p {
+  padding-top: 5px;
+}
+.contact .info .social-links {
+  padding-left: 60px;
+}
+.contact .info .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+  margin-right: 10px;
+}
+.contact .info .social-links a:hover {
+  background: #ff0000;
+  color: #fff;
+}
+.cnt-heading {
+  color: #c7a853;
+}
+.contact .info .email:hover i,
+.contact .info .address:hover i,
+.contact .info .phone:hover i {
+  background: #ff0000;
+  color: #fff;
+}
+.contact .php-email-form {
+  width: 100%;
+  padding: 30px;
+  padding-top: 0;
+  background: rgba(255, 255, 255, 0.06);
+}
+.contact .php-email-form .form-group {
+  padding-bottom: 8px;
+}
+.contact .php-email-form .validate {
+  display: none;
+  color: red;
+  margin: 0 0 15px 0;
+  font-weight: 400;
+  font-size: 13px;
+}
+.contact .php-email-form .error-message {
+  display: none;
+  color: #fff;
+  background: #ed3c0d;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+.contact .php-email-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+.contact .php-email-form .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+}
+.contact .php-email-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #18d26e;
+  border-top-color: #eee;
+  -webkit-animation: animate-loading 1s linear infinite;
+  animation: animate-loading 1s linear infinite;
+}
+.contact .php-email-form input,
+.contact .php-email-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.contact .php-email-form input::-moz-placeholder,
+.contact .php-email-form textarea::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}
+.contact .php-email-form input::placeholder,
+.contact .php-email-form textarea::placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}
+.contact .php-email-form input {
+  height: 44px;
+}
+.contact .php-email-form textarea {
+  padding: 10px 12px;
+}
+.contact .php-email-form button[type="submit"] {
+  background: #c29826;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+}
+.contact .php-email-form button[type="submit"]:hover {
+  background: #c8aa59;
+}
+@-webkit-keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*--------------------------------------------------------------
+  # Footer
+  --------------------------------------------------------------*/
+.map {
+  margin-bottom: 40px;
+}
+#footer {
+  background: rgba(19, 19, 19, 0.4);
+  padding: 30px 0 0 0;
+  color: #fff;
+  font-size: 14px;
+  position: relative;
+}
+#footer .copyright {
+  text-align: center;
+}
+#footer .credits {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 13px;
+  color: #fff;
+}
+#footer .credits a {
+  color: #ff3333;
+}
+
+/* footer css */
+.joinus-btn {
+  padding: 8px;
+  background: #0000;
+  border: #c7a853 2px solid;
+  border-radius: 20px;
+}
+.f-p {
+  color: #c7a853;
+}
+a {
+  text-decoration: none;
+  color: #c7a853;
+}
+a:hover {
+  color: #ffff;
+}
+.quick-links li {
+  color: #c7a853;
+  list-style: none;
+}
+.address {
+  color: #c7a853;
+}
+.email {
+  padding-left: 8px;
+}
+.phone {
+  padding-left: 17px;
+}
+.footer-icons {
+  border-radius: 50%;
+  padding: 5px;
+}
+
+footer ul.social-icons {
+  margin-top: 25px;
+  padding-left: 0;
+}
+
+footer ul.social-icons li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+footer ul.social-icons li:last-child {
+  margin-right: 0px;
+}
+
+footer ul.social-icons li a {
+  width: 34px;
+  height: 34px;
+  display: inline-block;
+  line-height: 34px;
+  text-align: center;
+  background-color: #c7a853;
+  color: #232323;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+
+footer ul.social-icons li a:hover {
+  background-color: #635a3f;
+}
+
+footer ul.menu-list li {
+  margin-bottom: 13px;
+}
+
+footer ul.menu-list li:last-child {
+  margin-bottom: 0px;
+}
+
+footer ul.menu-list li a {
+  font-size: 18px;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+footer ul.menu-list li a:hover {
+  color: #c8aa59;
+}
+.contact-text {
+  color: #ffff;
+}
+.copyright {
+  padding-top: 50px;
+  margin: 0;
+  font-size: 16px;
+}
+/* ABOUT US PAGE */
+.vision-section,
+.NRI-team,
+.team,
+.educational-program-section,
+.NRI-partners-section {
+  padding-top: 4rem;
+}
+/* More Info */
+
+.more-info {
+  margin-top: 140px;
+}
+
+.more-info .left-image img {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.more-info .more-info-content {
+  background-color: #f7f7f7;
+}
+
+.about-info .more-info-content {
+  background-color: transparent;
+}
+
+.about-info .right-content {
+  padding: 0px !important;
+  margin-right: 30px;
+}
+
+.more-info .right-content {
+  padding: 45px 45px 45px 30px;
+}
+
+.more-info .right-content span {
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #c7a853;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.more-info .right-content h2 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 35px;
+}
+
+.more-info .right-content em {
+  font-style: normal;
+  color: #c7a853;
+}
+
+.more-info .right-content p {
+  margin-bottom: 30px;
+}
+.team-item img {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+/* index */
+.educational-programs {
+  text-transform: uppercase;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 8px;
+}
+.educational-programs a:hover {
+  text-decoration: none;
+  color: #896709;
+}
+.overlay {
+  position: absolute;
+  color: #f1f1f1;
+  width: 95%;
+  transition: 0.5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+.edu-img:hover .overlay {
+  opacity: 1;
+}
+.edu-img:hover a {
+  text-decoration: none;
+  /* color: #896709; */
+}
